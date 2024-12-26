@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Edukasi Lingkungan</title>
+  <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="Logo" width="120" height="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" class="btn btn-outline-primary me-2" role="button">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a href="quiz.html" class="btn btn-outline-primary me-2" role="button">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="donasi.html" class="btn btn-outline-primary me-2" role="button">Donasi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-outline-primary dropdown-toggle me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tentang Kami
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="visimisi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="dokumentasi.html">Dokumentasi</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" style="width: 100%; height: 400px; margin: auto;" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/tetap.png" class="d-block w-100" alt="bs">
+      </div>
+      <div class="carousel-item">
+        <img src="image/clean.jpg" class="d-block w-100" alt="ui">
+      </div>
+      <div class="carousel-item">
+        <img src="image/ban.jpg" class="d-block w-100" alt="ux">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <h1 class="text-center mb-4 text-primary">Fakta Lingkungan Di Indonesia</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/iklim.jpg" class="card-img-top" alt="Kestabilan Iklim" style="object-fit: cover; height: 250px;">
+          <div class="card-body">
+            <h4 class="card-title" style="text-align: center;">Hutan Indonesia mencapai 125,76 juta hektare atau 62,97% dari total luas daratan Indonesia</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Kerusakan hutan-hutan di Indonesia yang rupanya sangat masif ini terkuak dengan makin canggihnya teknologi penginderaan yang mampu menghitung kerusakan hutan</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/laut.jpg" class="card-img-top" alt="Perikanan dan Kelautan" style="object-fit: cover; height: 250px;">
+          <div class="card-body">
+            <h4 class="card-title" style="text-align: center;">Sekitar 62% luas wilayah negara Indonesia merupakan laut dan perairan</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Tingkat pencemaran laut di Indonesia masih sangat tinggi, terutama di kawasan laut sekitar dekat muara sungai dan kota-kota besar. Tingkat pencemaran laut ini menjadi ancaman serius bagi laut Indonesia.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/sampah.jpg" class="card-img-top" alt="Pembangunan Ekonomi Ramah Lingkungan" style="object-fit: cover; height: 250px;">
+          <div class="card-body">
+            <h4 class="card-title" style="text-align: center;">Pada tahun 2023, timbunan sampah nasional mencapai 31,9 juta ton</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Indonesia merupakan negara penghasil sampah plastik terbesar kedua di dunia setelah China. Sampah di Indonesia terdiri dari sampah organik (57%), plastik (16%), kertas (10%) dan lainnya (17%).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="card px-6">
+          <img src="image/sampah.jpeg" class="card-img-top" alt="Pembangunan Ekonomi Ramah Lingkungan" style="object-fit: cover; height: 400px;">
+          <div class="card-body">
+            <h1 class="card-title text-primary" style="text-align: center;">Tahukah kamu?</h1>
+              <h4 class="card-title" style="text-align: left;">Hutan Indonesia: Paru-paru Dunia yang Terancam</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Hutan Indonesia mencakup sekitar 125 juta hektare, atau 62,97% dari total luas daratan negara ini. Hutan ini tidak hanya menjadi sumber oksigen bagi dunia, tetapi juga rumah bagi keanekaragaman hayati yang sangat tinggi. Namun, kerusakan hutan terus terjadi akibat penebangan liar dan alih fungsi lahan. Aktivitas ini tidak hanya merusak habitat satwa liar tetapi juga mempercepat perubahan iklim melalui pelepasan karbon dioksida ke atmosfer. Untuk melindungi hutan, reboisasi dan pengelolaan hutan berkelanjutan harus menjadi prioritas utama.</p>
+            
+            <h4 class="card-title" style="text-align: left;">Laut Indonesia: Kekayaan yang Harus Dijaga</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Laut Indonesia mencakup 62% dari total wilayah negara dan memiliki peran penting dalam menopang kehidupan masyarakat pesisir. Sayangnya, laut Indonesia menghadapi ancaman serius, seperti polusi plastik, penangkapan ikan berlebihan, dan pencemaran limbah industri. Semua ancaman ini berdampak buruk pada ekosistem laut dan mengancam keberlanjutan sektor perikanan. Untuk melindungi laut, diperlukan regulasi yang ketat terhadap pencemaran dan penangkapan ikan, serta edukasi kepada masyarakat tentang pentingnya menjaga kebersihan laut.</p>
+            
+            <h4 class="card-title" style="text-align: left;">Sampah: Masalah yang Mendesak</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Pada tahun 2023, Indonesia menghasilkan 31,9 juta ton sampah, dengan komposisi terbesar berupa sampah organik (57%) dan plastik (16%). Sampah plastik adalah yang paling banyak ditemukan di laut dan menjadi ancaman besar bagi ekosistem laut. Untuk mengatasi masalah ini, berbagai program, seperti Gerakan Indonesia Bersih, telah diluncurkan untuk mengurangi penggunaan plastik sekali pakai dan meningkatkan daur ulang. Namun, keberhasilan program ini memerlukan partisipasi aktif dari masyarakat.</p>
+            
+            <h4 class="card-title" style="text-align: left;">Langkah Menuju Masa Depan Berkelanjutan</h4>
+            <p class="card-text text-muted" style="text-align: justify;">Melindungi hutan, laut, dan mengelola sampah bukanlah tugas pemerintah saja. Semua elemen masyarakat harus berperan aktif. Berikut adalah beberapa langkah yang dapat diambil: <br>
+              1. Edukasi Lingkungan: Meningkatkan kesadaran masyarakat tentang pentingnya melestarikan lingkungan melalui kampanye dan program edukasi. <br>
+              2. Reboisasi: Melakukan penanaman kembali pohon di area hutan yang telah rusak. <br>
+              3. Pengelolaan Sampah: Mendorong pengurangan penggunaan plastik sekali pakai dan meningkatkan kegiatan daur ulang. <br>
+              4. Regulasi yang Ketat: Mengimplementasikan hukum dan regulasi yang melindungi lingkungan secara lebih tegas. <br>
+              5. Partisipasi Komunitas: Menggalang komunitas lokal untuk terlibat dalam pelestarian lingkungan.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Uji Pengetahuanmu Dengan <br> Quiz Lingkungan Yuk!</h2>
+      <div class="text-center">
+        <a href="quiz.html" class="btn btn-outline-primary">Klik di sini</a>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="donasi">
+      <h2 class="text-center mb-4">Dukung Kampanye Kami</h2>
+      <p class="text-center">Target Donasi: Rp50.000.000</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 50%;">Rp25.000.000</div>
+      </div>
+      <div class="text-center">
+        <a href="donasi.html" class="btn btn-outline-primary">Donasi Sekarang</a>
+      </div>
+  </div>
+
+
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <p>&copy; 2024 Website Edukasi Lingkungan. Audhia Rahmadani Rahmat.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

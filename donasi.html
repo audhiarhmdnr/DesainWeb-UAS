@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donasi - Website Edukasi Lingkungan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="Logo" width="120" height="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" class="btn btn-outline-primary me-2" role="button">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a href="quiz.html" class="btn btn-outline-primary me-2" role="button">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="donasi.html" class="btn btn-outline-primary me-2" role="button">Donasi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-outline-primary dropdown-toggle me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tentang Kami
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="visimisi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="dokumentasi.html">Dokumentasi</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center">Dukung Kampanye Kami</h1>
+    <p class="text-center">Target Donasi: Rp50.000.000</p>
+    <div class="progress mb-3">
+      <div class="progress-bar bg-success" id="donasiProgress" style="width: 50%;">Rp25.000.000</div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Formulir Donasi</h1>
+    <div class="card mx-auto" style="max-width: 800px; background-color: #dde5ea;">
+      <div class="card-body">
+        <h4 class="text-primary">Data Pribadi</h4>
+        <div class="mb-3">
+          <label for="nama" class="form-label text-muted">Nama</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda" aria-label="Nama">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label text-muted">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda" aria-label="Email">
+        </div>
+        <div class="mb-3">
+          <label for="telepon" class="form-label text-muted">Nomor Telepon</label>
+          <input type="tel" class="form-control" id="telepon" placeholder="Masukkan Nomor Telepon Anda" aria-label="Nomor Telepon">
+        </div>
+        <div class="mb-3">
+          <label for="alamat" class="form-label text-muted">Alamat</label>
+          <input type="text" class="form-control" id="alamat" placeholder="Masukkan Alamat Anda" aria-label="Alamat">
+        </div>
+        <div class="mb-3">
+          <label for="instansi" class="form-label text-muted">Nominal Donasi</label>
+          <input type="number" class="form-control" id="donasi" placeholder="Masukkan Nominal Donasi" aria-label="Nominal Donasi">
+        </div>
+        <button class="btn btn-primary w-100" type="button" id="submitDonasi">Kirim</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Berhasil!</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Terima kasih sudah berdonasi!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <p>&copy; 2024 Website Edukasi Lingkungan. Audhia Rahmadani Rahmat.</p>
+  </footer>
+
+  <script src="js/script.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
