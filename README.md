@@ -4,7 +4,8 @@
 Website ini bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga kelestarian lingkungan melalui edukasi dan interaksi yang menarik. Pengguna dapat belajar mengenai isu lingkungan, berpartisipasi dalam kuis edukatif, membaca dokumentasi terkait langkah-langkah pelestarian lingkungan, serta melihat visi dan misi program ini.
 
 ## Komponen Bootstrap yang Digunakan
-- **Navbar:** Untuk navigasi antar halaman utama seperti halaman kuis, donasi, visi dan misi, serta dokumentasi.
+- **Navbar:** Untuk navigasi antar halaman utama seperti halaman kuis, dan donasi.
+- **Dropdown:** Untuk navigasi antar halaman secara vertikal seperti halaman visi dan misi dan dokumentasi.
 - **Carousel:** Menampilkan gambar dan informasi penting terkait lingkungan secara interaktif di halaman utama.
 - **Progress Bar:** Menunjukkan progress pencapaian target kampanye lingkungan.
 - **Modal:** Menampilkan pesan konfirmasi atau informasi setelah aksi dilakukan, seperti menyelesaikan kuis atau melakukan donasi.
